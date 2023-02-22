@@ -1,0 +1,394 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*navbar start*/
+.container{
+     width: 1200px;
+     margin: 0 auto;
+}
+nav {
+    
+    width: 100%;
+    background-color: blueviolet;
+    
+    } 
+    .nav_wrap{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .list{
+        display: flex;
+        gap: 42px;
+    } 
+    .list_item{
+        list-style-type: none;
+    } 
+    .list_item a {
+        text-decoration:none ;
+        font-size: 24px;
+        line-height: 28px;
+        display: flex;
+        align-items: center;
+        color: #FFFFFF;
+    }
+    .list_item a:hover{
+        color: #191918;
+         border-bottom: 2px solid #5454d4 ;
+    }
+
+       .btn {
+        width: 267px;
+        height: 50px;
+        background-color: white;
+        border: none;
+        font-size: 24px;
+        line-height: 28px;
+         }
+        .icon_wrap{
+            display: none;
+        }
+       /* navbar end*/
+       /* header start*/
+      span{
+          color: blue;
+        }
+        .header_wrap{
+            background-color: #fafafa;
+            width: 100%;
+        }
+      .header{
+           display: flex;
+            align-items: center;
+           justify-content:space-between ;
+           gap: 40px;
+           }
+           .header .img_wrap,.text_wrap{
+            flex: 1;
+           }
+           .img_wrap img{
+            width: 100%;
+           }
+           .title{
+            width: 568px;
+            height: 234px;
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 50px;
+              }
+            .text{
+                width: 534px;
+                 height: 100px;
+                 font-weight: 400;
+                 font-size: 18px;
+                 line-height: 22px;
+                 color: #000000;
+                 
+            }
+            .btn_wrap{
+                display: flex;
+                gap:40px ;
+            }
+            .btn1{
+                width: 156px;
+                height: 43px;
+                left: 162px;
+                top: 590px;
+                
+               
+                font-size: 32px;
+                line-height: 38px;
+                display: flex;
+                align-items: center;
+                
+                color: #FFFFFF;
+                width: 220px;
+                height: 58px;
+                left: 130px;
+                top: 585px;
+                padding: 32px;
+                background: #6347EB;
+                border-radius: 10px;
+                border: none;
+            }
+            .btn2{
+                width: 239px;
+                height: 58px;
+                left: 424px;
+                top: 590px;
+                font-size: 32px;
+                line-height: 38px;
+                display: flex;
+                align-items: center;
+                padding: 32px;
+                color: #000000;
+                border: 3px solid #6347EB;
+                border-radius: 10px;
+            }
+            /*header end*/
+            /*ustun start*/
+            .ustun{
+                display: flex;
+                justify-content: center;
+                padding: 214px 139px;
+                gap: 40px;
+            }
+            .ustun .img_wrap1,.text_wrap1{
+                flex: 1;
+            }
+            .img_wrap1{
+                width: 1200px;
+                height: 220px;
+             
+            }
+             .title1{
+                font-weight: 700;
+                font-size: 40px;
+                line-height: 50px;
+                
+                color: #000000;
+             }
+             .text1{
+                font-weight: 400;
+                font-size: 24px;
+                line-height: 29px;
+                color: #000000;
+             }
+             /*ustun end*/
+             /*info start */
+             .info_wrap{
+                background-color: #6347EB;
+                text-align: center;
+                width: 100%;
+             }
+            .info{
+               
+                display: flex;
+                justify-content: center;
+                flex-wrap: wrap;
+                gap: 80px;
+               
+            }
+             .наши{
+                font-weight: 700;
+                font-size: 40px;
+                line-height: 50px;
+                padding:90px 0px;
+                color: #FFFFFF;
+             }
+             .card{
+                width: 261px;
+             }
+             .card img{
+                border: 10px solid #FFFFFF;
+                border-radius: 50%;
+             }
+             .card h1{
+                font-size: 24px;
+                color: #FFFFFF;
+                padding: 25px ;
+             }
+             .card p{
+                font-style: normal;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 22px;
+                text-align: center;
+                
+                color: #FFFFFF;
+             }/*info end*/
+             /*klacc start*/
+             .klacc{
+                margin: 100px auto;
+                width: fit-content;
+                text-align: center;
+             }
+             .shadow{
+                font-style: normal;
+                font-weight: 700;
+                font-size: 96px;
+                line-height: 119px;
+                color: #EEEEEE;
+                margin-bottom: -40px;
+             }
+             .klacc .title{
+                font-style: normal;
+                font-weight: 700;
+                font-size: 40px;
+                line-height: 50px;
+                color: #000000;
+             }
+             /*klacc end*/
+             /* klass info stard*/
+             .klacc_info_wrap{
+               width: 100%;
+                align-items: center;
+                display: flex;
+                justify-content: center;
+                flex-wrap: wrap;
+                gap:86px ;
+             }
+             .klacc_info{                                
+                width: 301px;
+                height: 530px;
+                padding: 19px;
+                background: #5855E7;
+                box-shadow: 0px 0px 35px rgba(17, 17, 17, 0.25);
+                border-radius: 15px;
+                text-align: center;
+             }
+            .klacc_info h1,h4,p{
+                padding: 10px;
+                color: #FAFBFD;
+            }
+            .klacc_info button{
+                width: 147px;
+                height: 32px;
+                left: 261px;
+                top: 3622px;
+                
+                background: #FFFFFF;
+                border-radius: 5px;
+                font-size: 18px;
+               border: none;
+                color: #6347EB;
+            }
+            /*klass info end*/
+            /*name start*/
+            .name{
+            margin: 100px auto;
+            width: fit-content;
+            text-align: center;
+            }
+            .name_shadow{
+                font-style: normal;
+                font-weight: 700;
+                font-size: 96px;
+                line-height: 119px;         
+                color: #EEEEEE;
+                 margin-bottom: -40px;
+                 
+            }
+            .name_title{
+                
+                font-style: normal;
+                font-weight: 700;
+                font-size: 40px;
+                line-height: 50px;
+                
+                color: #000000;
+            }
+             /*name end*/
+             /*adres start*/
+             .adres_wrap{
+                background-color: #5454d4;
+                width: 100%;
+             }
+             .adres{
+                display: flex;
+                gap: 114px;
+                padding: 50px;
+             }
+             .adres_tel h1{
+                padding-top: 50px;
+                
+                font-family: 'Gilroy';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 40px;
+                line-height: 49px;
+                
+                color: #FFFFFF;
+
+             }
+             .adres_tel h2{
+                font-weight: 400;
+                font-size: 24px;
+                line-height: 29px;
+                padding: 20px;
+                color: #FFFFFF;       
+             }
+             .adres_img{
+                width: 485px;     
+             }
+             .adres_email_text{
+                padding-top: 50px;
+                font-weight: 500;
+                font-size: 40px;
+                line-height: 49px;
+                
+                color: #FFFFFF;
+             }
+              .pp{
+                font-size: 18px;
+                line-height: 22px;
+                
+                color: #FFFFFF;
+              }
+              
+               .input{
+               padding: 10px 100px;
+               margin: 20px;
+               }
+               .nomer{
+                padding: 100px 50px;
+                margin: 20px;
+               }
+            .submit{
+
+            }
+
+
+
+
+
+
+             /*adres emd*/
+
+             
+             
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+         @media(max-width:1024px){
+            .container{
+                width: 100%;
+            }
+         
+            .btn{
+                width: 250px;
+                font-size: 16px;
+            }
+         }
+         @media(max-width:768){
+            .logo{
+                width: 80px;
+            }
+            .list,.nav_btn{
+                display: none;
+            }
+            .icon_wrap{
+                display: inline-block;
+            }
+         }
+
+
